@@ -24,5 +24,4 @@ atlassian-ide-plugin.xml
 /out/
 /target/
 /libs/
-configuration.yml
 .DS_Store
