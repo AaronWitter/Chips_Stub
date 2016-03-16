@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Ddw.http.port=$PORT -Ddw.http.adminPort=$PORT -cp target/classes:target/dependency/* org.webjars.MainService server configuration-heroku.yml
+web: java $JAVA_OPTS -Ddw.server.connector.port=$PORT -jar target/DWGettingStarted-1.0-SNAPSHOT.jar server configuration-heroku.yml
