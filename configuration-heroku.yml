@@ -3,5 +3,5 @@ server:
   applicationContextPath: /
   adminContextPath: /admin
   connector:
-    type: http
+    type: https
     port: 9010
